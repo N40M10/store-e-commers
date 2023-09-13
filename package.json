@@ -8,7 +8,7 @@
     "start": "webpack serve --config webpack.config.dev.js",
     "dev": "webpack --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.js",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -37,5 +37,5 @@
     "dotenv-webpack": "^8.0.1",
     "terser-webpack-plugin": "^5.3.9"
   },
-  "homepage": "https://N40M10.github.com/store-e-commers"
+  "homepage": "https://github.com/N40M10/store-e-commers"
 }
